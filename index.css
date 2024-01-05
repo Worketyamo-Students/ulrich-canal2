@@ -1,7 +1,14 @@
 :root {
-    --color-primary: ;
-    --color-secondary: ;
-    --color-tertiaire: ;
+    --color-primary: 000E01;
+    --color-secondary: 618264;
+    --color-tertiaire: 79AC78;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
 }
 
 .amen {
@@ -19,6 +26,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .btn{
     flex: 1;
@@ -26,13 +34,357 @@
     justify-content: center;
     align-items: center;
     
+    
 }
-.francis img{
+.img{
     width: 600px;
     height: 600px;
 }
 .boy {
-    width: 203px;
-    height: 29px;
+    width: 120px;
+    height: 40px;
+    border: 2px;
+    background-color:#618264;
+    ;
     
 }
+.parent {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+.parent .enfant-1 {
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(to top,#00000068,rgba(0,0,0,0)), url(./image/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime\ 1.svg) center top / cover;
+    display:flex;
+    align-items:end;
+    text-decoration:none;
+    border-radius:2rem;
+    padding:4rem;
+    margin-top: 30px;
+}
+.offset {
+    width: 12px;
+    height: 142px;
+   margin-right: 20px;
+    
+
+
+}
+.actu {
+    color: #ffffff;
+}
+.cyril {
+    font-family: IBM Plex Sans Hebrew;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+   
+    
+
+}
+.parent .enfant-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 35%;
+
+}
+.take {
+    width: 13px;
+height: 33px;
+top: 151px;
+left: 970px;
+margin-top: 1.5rem;    
+}
+.vert {
+    display: flex;
+    
+    
+}
+.jour {
+    margin-left: 5px;
+    font-family: IBM Plex Sans Hebrew;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+    
+
+
+}
+
+.ahmed{
+    display: flex;  
+}
+
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.scott {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    padding: 1rem;
+}
+.abou {
+    font-family: Inter;
+font-size: 10px;
+font-style: italic;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #618264;
+}
+.paragraphe {
+    display: flex;
+    flex-direction: column;
+
+}
+.ahmed img{
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.scott img {
+    width: 200px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+    
+}
+.direct {
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.zogo {
+    display: flex;
+    flex-direction: column;
+    
+}
+.zogo img{
+      width: 700px;
+      margin-bottom: 50px;
+      margin-top: 40px;
+      border-radius: 10px;
+      margin-left: 320px;
+}
+.programme {
+    display: flex;
+    flex-direction: column;
+    margin-left: 410px;
+}
+.matin{
+    display: flex;
+}
+.lorem{
+    flex: 1;
+    display: flex;
+    margin-bottom: 100px; 
+}
+.nuit {
+    color: #618264;
+    font-family: IBM Plex Sans Hebrew;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.lorem img {
+    width: 500px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.ipsum{
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 5rem;
+}
+
+
+rule {
+    color: #618264;
+}
+.nous{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arene{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+   padding-left: 1rem;
+}
+
+.blue {
+    width: 340px
+height: 350px
+top: 3189px
+left: 74px
+border: 1px
+background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 1px solid #D9D9D9
+
+}
+.presse{
+    display: flex;
+    flex-direction: column;
+
+}
+.arene img {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.matin-1{
+    display: flex;
+    
+}
+.lorem-1{
+    flex: 1;
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+   
+}
+.lorem-1 img{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+    
+.ipsum-1{
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 170px;
+
+}
+.font {
+    color: #618264;
+    font-family: IBM Plex Sans Hebrew;
+font-size: 30px;
+font-weight: 600;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.pub{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 200px;
+    /* background-color: red; */
+    display: flex;
+}
+.espace{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.textpub{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 2rem;
+    color: #618264;
+}
+hr{
+    width: .5vw;
+    height: 10vh;
+    background-color: #618264;
+}
+.playce{
+    flex: 8;
+    background-color:;
+    background-image: url(./image/Rectangle\ 28.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.scotty {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doggy {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    padding: 50px;
+}
+.papier {
+    display: flex;
+    flex-direction: column;
+
+}
+.leo {
+    background-color:#79AC78;
+    height: 300px;
+}
+.messi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 600px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 28px;
+    
+    
+}
+
+
+
+
+
+
